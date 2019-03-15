@@ -199,7 +199,7 @@ sub array_numbers {
     my $self = shift;
     
     my @array = ($self->home_number .. $self->end_number);
-    return @array;
+    return \@array;
 }
 
 1;
